@@ -141,6 +141,9 @@ h3 {
     font-weight: 450;
     font-size: 31px;
     text-align: center;
+    background: linear-gradient(to right,#111111, #b1b1b1, #696969, #b1b1b1) ;
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 .underline {
@@ -351,5 +354,11 @@ h3 {
 
 .form-control > div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #AD4844
+}
+
+.form-control label {
+    padding: 0 1rem;
 }
