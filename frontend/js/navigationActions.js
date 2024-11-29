@@ -11,7 +11,6 @@ window.addEventListener('scroll', () =>  {
     clearActiveClass()
     
     const currentPost = window.scrollY + window.screen.availHeight;
-    console.log( posTopProducts)
     if( posTopProducts < currentPost) {
         linkProducts.classList.add('active')
     }

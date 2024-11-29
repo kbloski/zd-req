@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARTHROHARD</title>
     <link rel="stylesheet" href="./style/global.css" />
-    <script src="./js/app.js" defer></script>
+    <script src="./js/navigationActions.js" defer></script>
+    <script src="./js/loadProducts.js" defer></script>
 </head>
 <body>
 <header>
@@ -144,14 +145,18 @@ który może pomóc w ochronie stawów poprzez neutralizację wolnych rodników,
             <div>
                 <label for="quantity-products">Liczba produktów na stronie
                 </label>
-                <select class="btn btn-danger" id="quantity-products">
+                <select class="btn btn-danger" id="page-product-size">
+                    <option >10</option>
+                    <option >25</option>
                     <option >50</option>
+                    <option >100</option>
                 </select>
             </div>
         </div>
-    </div>
-    <div>
+        <ul id="product-list">
 
+
+        </ul>
     </div>
 </main>
     
