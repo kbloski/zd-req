@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+    .baner-1 .title {
+        font-size: 52px;
+    }
+
+    .baner-1 .description {
+        font-size: 32px;
+    }
+
+    #product-list > li {
+    padding: 10vw;
+    background: #BEBEBE;
+    margin: 1rem;
+
+    }
+
+    .components {
+        flex-direction: column;
+    }
+
+}
