@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-size: 20px;
 }
 
 header {
@@ -142,13 +143,8 @@ ul {
     font-size: 48px;
 }
 
-.baner-1 p {
-    font-size: 20px;
-}
-
 .btn {
     padding: 10px 40px;
-    font-size: 20px;
     font-weight: 700;
     color: white;
     border: none;
@@ -173,15 +169,15 @@ h2 {
     font-size: 48px;
     text-align: center;
     font-weight: 450px;
+    background: linear-gradient(to right,#111111, #b1b1b1, #696969, #b1b1b1) ;
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 h3 {
     font-weight: 450;
     font-size: 31px;
     text-align: center;
-    background: linear-gradient(to right,#111111, #b1b1b1, #696969, #b1b1b1) ;
-    color: transparent;
-    -webkit-background-clip: text;
 }
 
 .underline {
@@ -248,6 +244,10 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     max-width: 360px;
+}
+
+.benefits > li:hover {
+    border-bottom: 2px solid black;
 }
 
 .benefits p {
@@ -340,7 +340,6 @@ h3 {
 }
 
 .components > * {
-    /* margin: 5rem 0; */
     margin: 0 2rem;
     flex: 1;
 }
@@ -369,6 +368,8 @@ h3 {
     transform: translateX(-50%);
     background-color: #d9d9d9;
 }
+
+
 
 .components h3 {
     position: relative;
