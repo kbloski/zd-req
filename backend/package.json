@@ -5,12 +5,14 @@
   "description": "start 22:10",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./src/index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@api/idosell": "file:.api/apis/idosell",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "nodemon": "^3.1.7"
   }

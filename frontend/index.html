@@ -10,6 +10,7 @@
 
     <script src="./js/navigationActions.js" defer></script>
     <script src="./js/loadProducts.js" defer type="module"></script>
+    <script src="./js/paralaks_dog_background.js" defer></script>
 </head>
 <body>
 <header>
@@ -23,7 +24,7 @@
     </nav>
 </header>
 <main>
-    <section class="bg-dark" id="benefits">
+    <section class="bg-dark" >
         <div class="baner-1">
             <div class="baner-1-img">
                 <img src="./public/baner-image.png" ></img>
@@ -39,7 +40,9 @@
                     <button class="btn btn-success">Kup teraz</button>
             </div>
         </div>
-        <h2 class="underline">Co wyróżnia nasz preparat</h2>
+        <div id="benefits">
+            <h2 class="underline" >Co wyróżnia nasz preparat</h2>
+        </div>
         <ul class="benefits" >
             <li>
                 <h3 class="underline">
@@ -125,7 +128,9 @@
                 </li>
             </ul>  
             <div>
-                <img src="./public/components-image.png">
+                <div class="components-baner">
+                    <img src="./public/components-image.png" >
+                </div>
                 <button class="btn btn-danger">Kup teraz</button>                
             </div>
             <ul>
@@ -148,8 +153,16 @@
                 </li>
             </ul>
         </div>
-        <div class="dog-photo">
-             <img src="./public/dog.png">
+        <div class="dog-baner">
+            <div id="dog-baner-paralax-elements">
+                <div>
+                    <img src="./public/background-object-green.png">
+                </div>
+                <div>
+                    <img src="./public/background-object-green.png">
+                </div>
+            </div>
+            <img src="./public/dog.png">
         </div>
     </section>
     <section class="bg-dark">

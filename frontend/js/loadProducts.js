@@ -16,8 +16,13 @@ class ProductListController {
         this.init();
     }
 
+
+
     init() {
-        this.loadProducts();
+        // if( posTopProducts )
+        // this.loadProducts();
+        
+        
         this.selectElementPageSize.addEventListener("input", (event) => {
             this.pageSize = event.target.value;
             this.resetProductList();

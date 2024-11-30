@@ -9,6 +9,7 @@ class PopupController {
     }
 
     init() {
+        // this.popupEl.addEventListener('click', () => this.closePopup())
         this.closeButton.addEventListener("click", () => this.closePopup());
     }
 

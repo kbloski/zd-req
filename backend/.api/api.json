@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "idosell",
+      "source": "@idosell/v3.0#4kvhy23m10phqc0",
+      "integrity": "sha512-kjH5zVeo/iYc9ntPRMyQRV9EYYCrmaQqkO7wzxaljzLTvDEtArQiPftJ2bZK5/U3k99jSyjSLM8tw+W0fMWRoA==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}
