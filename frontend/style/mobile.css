@@ -1,6 +1,7 @@
 @media screen and (max-width: 900px) {
     header {
         position: sticky;
+        flex-direction: column;
         top: -50px;
     }
 
@@ -25,9 +26,6 @@
     }
 
     .benefits > li {
-        /* background-color: black; */
-        /* width: 80vw; */
-        /* padding: 0 !important; */
         margin: 1rem;
     }
 
