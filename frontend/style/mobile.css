@@ -1,4 +1,9 @@
 @media screen and (max-width: 900px) {
+    /* header {
+        position: sticky;
+        top: -80px;
+    } */
+
     .baner-1 .title {
         font-size: 52px;
     }
