@@ -316,7 +316,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 0;
-    opacity: .5;
+    opacity: .35;
 }
 
 .benefits .image::after,
