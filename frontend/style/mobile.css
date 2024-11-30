@@ -1,8 +1,20 @@
 @media screen and (max-width: 900px) {
-    /* header {
+    header {
         position: sticky;
-        top: -80px;
-    } */
+        top: -50px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    nav > ul {
+        margin-top: 0;
+    }
+
+    .baner-1 {
+        padding-top: 3rem;
+    }
 
     .baner-1 .title {
         font-size: 52px;
@@ -10,6 +22,13 @@
 
     .baner-1 .description {
         font-size: 32px;
+    }
+
+    .benefits > li {
+        /* background-color: black; */
+        /* width: 80vw; */
+        /* padding: 0 !important; */
+        margin: 1rem;
     }
 
     #product-list > li {
@@ -26,6 +45,7 @@
     .components-baner {
         width: 50%;
     }
+
 
     .benefits .image::after,
     .benefits .twice-images::after,
