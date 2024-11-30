@@ -9,6 +9,11 @@
         margin-bottom: 0;
     }
 
+    h2 {
+        font-size: 32px;
+        padding: 0 2rem;
+    }
+
     nav > ul {
         margin-top: 0;
     }
