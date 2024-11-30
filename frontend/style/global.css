@@ -206,6 +206,7 @@ h3 {
     list-style: none;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 #benefits {
@@ -216,9 +217,9 @@ h3 {
 #benefits::before,
 #benefits::after 
 {    
+    position: absolute;
     content: '';
     width: 30%;
-    position: absolute;
     background-image: url('../public/background-object-gray.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -241,7 +242,7 @@ h3 {
 
 .benefits > li {
     flex: 1;
-    margin: 0 7rem;
+    margin: 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
