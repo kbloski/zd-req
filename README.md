@@ -1,1 +1,1 @@
-aplikacja zbudowana w 7h
+aplikacja zbudowana w około 8-9 godzin
