@@ -26,5 +26,14 @@
     .components-baner {
         width: 50%;
     }
+
+    .benefits .image::after,
+    .benefits .twice-images::after,
+    .benefits .image::before,
+    .benefits .twice-images::before  {
+        display: none;
+    }
+
 }
+
 

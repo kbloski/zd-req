@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
     const backgroundItemsPos = backgroundItems.getBoundingClientRect();
     if (-1 * backgroundItemsPos.top > backgroundItems.scrollHeight) return;
 
-    if (backgroundItemsPos.top - window.screen.availHeight / 2 < 0) {
+    if (backgroundItemsPos.top - window.screen.availHeight-100 < 0) {
         backgroundItems.style.transform = `translateY(${-(
             n * backgroundItemsPos.top
         )}px)`;
