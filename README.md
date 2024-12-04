@@ -18,3 +18,9 @@ App_run:
     później wykonaj te polecenia
     npm i
     npm run preview lub npm run dev
+
+    endpoints: 
+        localhost:8080 - zamień na twoją domenę
+
+        localhost:8080/orders/all?minWorth={number}&maxWorth={number} //queryParams są tutaj nieobowiązkowe
+        localhost:8080/orders/:orderId
