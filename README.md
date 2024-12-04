@@ -1,18 +1,18 @@
-Frontend 9-8 godzin
-Aby aplikacja działała prawidłowo potrzebne jest 
-narzędzie typu LiveSerwer w visual studio code lub 
-inne do hostowania całego folderu
+Frontend 
+Czas: 9-8 godzin
+App_run: Aby aplikacja działała prawidłowo potrzebne jest narzędzie typu LiveSerwer w visual studio code lub inne do hostowania całego folderu
 
 Backend
-5-6 godzin
-użytkownicy -  
- nazwa : hasło
-admin: 'secret_admin',
-user: 'secret_user'
+Czas: 5-6 godzin
+Konta użytkowników do baseAuth:  
+    nazwa : hasło
+    admin: 'secret_admin',
+    user: 'secret_user'
 
-PS: Stworzyłem jedną tabelę w bazie danych
-skupiając dosłownym formacie danych
+PS: Użyłem dosłownego formatu danych dlatego jest tylko jedna tabela:
 
-Aby uruchomić
-npm i
-npm run preview lub npm run dev
+App_run: 
+    skonfiguruj plik .env, który jest wraz z zadaniem
+    później wykonaj te polecenia
+    npm i
+    npm run preview lub npm run dev
