@@ -1,14 +1,18 @@
 Frontend 9-8 godzin
-Aby aplikacja działała prawidłowo potrzebne jest narzędzie typu LiveSerwer w visual studio code lub inne do hostowania całego folderu
+Aby aplikacja działała prawidłowo potrzebne jest 
+narzędzie typu LiveSerwer w visual studio code lub 
+inne do hostowania całego folderu
 
-Backend 
+Backend
 5-6 godzin
-użytkownicy -         
-    nazwa : hasło
-    admin: 'secret_admin',
-    user: 'secret_user'
+użytkownicy -  
+ nazwa : hasło
+admin: 'secret_admin',
+user: 'secret_user'
 
-Aby uruchomić 
+PS: Stworzyłem jedną tabelę w bazie danych
+skupiając dosłownym formacie danych
 
-npm i 
+Aby uruchomić
+npm i
 npm run preview lub npm run dev

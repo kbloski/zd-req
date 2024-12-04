@@ -1,4 +1,4 @@
-import { setCache } from "../services/cacheServer.js";
+import { ordersController } from "../controllers/controllers.js";
 
 export async function fetchOrdersAndSave() {
     const url =
@@ -25,30 +25,22 @@ export async function fetchOrdersAndSave() {
         .then((json) => (fetchData = json))
         .catch((err) => console.error(err));
 
-
-    
-    const orders = []
-    fetchData.Results.forEach( async (data) => {
+    const orders = [];
+    fetchData.Results.forEach(async (data) => {
         const orderId = data.orderId;
-        const orderItems = data.orderDetails.productsResults;
-        const orderTotal = data.orderDetails.payments.orderCurrency.orderProductsCost;
+        const orderTotal =
+            data.orderDetails.payments.orderCurrency.orderProductsCost;
+        let orderItems = data.orderDetails.productsResults;
 
-        const dataToSave = {
-            orderID: orderId,
-            orderWorth: orderTotal,
-            products: orderItems.map( item => {
-                return {
-                    productID: item.productId,
-                    quantity: item.productQuantity
-                }
-            })
-        };
+        orderItems = orderItems.map((item) => {
+            return {
+                productID: item.productId,
+                quantity: item.productQuantity,
+            }
+        });
 
-        orders.push( dataToSave)
-
-    })
-
-    setCache('orders', orders)
+        await ordersController.createOrUpdate(orderId, orderItems, orderTotal);
+    });
 }
 
 fetchOrdersAndSave();
