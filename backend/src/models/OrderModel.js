@@ -7,7 +7,7 @@ const OrdersModel = sequelize.define('Orders', {
         primaryKey: true,
         allowNull: false
     },
-    products: DataTypes.STRING(999_999),
+    products: DataTypes.TEXT,
     orderWorth: DataTypes.INTEGER
 }, {
     timestamps: false

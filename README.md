@@ -9,10 +9,12 @@ Konta użytkowników do baseAuth:
     admin: 'secret_admin',
     user: 'secret_user'
 
-PS: Użyłem dosłownego formatu danych dlatego jest tylko jedna tabela:
-
 App_run: 
-    skonfiguruj plik .env, który jest wraz z zadaniem
+    utworz bazę danych i zaimportuj strukturję w xampp > phpmyadmin
+    skonfiguruj plik .env, który jest wraz z zadaniem (
+        wszystkie zmienne są intuicyjne
+    )
+
     później wykonaj te polecenia
     npm i
     npm run preview lub npm run dev
